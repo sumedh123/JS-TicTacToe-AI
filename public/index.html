@@ -32,7 +32,39 @@
                 <div class="cell" id="cell_8"><div class="icon_holder noselect"></div></div>
             </div>
         </div>
-           
+
+        <button id="refresh" onclick="window.location.reload()">New game</button>           
     	<script type = "text/javascript" src="bundle.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+        <script>
+
+            (function(){
+                var button = $('#refresh');
+                button
+                .animate({
+                    'top':'86.5%'
+                },500)
+                .animate({
+                    'top': '82%'
+                },200)
+                .animate({
+                    'top': '86.5%'
+                },200)
+                .animate({
+                    'top': '84.5%'
+                },200)
+                .animate({
+                    'top': '86.5%'
+                },200)
+                .animate({
+                    'top': '85%'
+                },200)
+                .animate({
+                    'top': '86.5%'
+                },200)
+
+            })();
+        </script>
     </body>
 </html>
